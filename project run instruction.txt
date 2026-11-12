@@ -1,0 +1,5 @@
+cd /d "C:\Users\Lenovo\Downloads\CU ork\DAA\Project\algovision"
+
+npm install
+
+npm run dev

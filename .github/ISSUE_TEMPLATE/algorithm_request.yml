@@ -1,0 +1,26 @@
+name: Algorithm or learning feature
+description: Suggest an algorithm, visualization, or course concept.
+title: "[Learning feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: learning_goal
+    attributes:
+      label: Learning goal
+      description: What should a learner understand or be able to do?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example input or interaction
+      description: Share a small example that would make the feature useful.
+    validations:
+      required: false
+  - type: textarea
+    id: complexity
+    attributes:
+      label: Algorithm and complexity notes
+      description: Include any relevant edge cases or complexity expectations.
+    validations:
+      required: false
